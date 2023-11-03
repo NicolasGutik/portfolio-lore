@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maria Lorena Prenol - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">Lorena Prenol.</td>
+                <td id="navigation">
+                    <a href="#bio">about</a>
+                    <a href="#work">work</a>
+                    <a href="#contact">contact</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>Communications and Marketing Professional specialized in retail, B2B, industrial and direct sales channels</h1>
+                <button class="btn_one">Hire Me</button><br>
+                <table>
+                    <tr>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fas fa-envelope"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-linkedin"></i></a></td>
+                    </tr>
+                </table>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+    <div id="bio">
+        <h1>about</h1>
+        <div class="bio-container">
+            <div class="bio-box">
+                <p>
+                    I am a passionate Communication and Marketing professional who is always looking for understanding
+        my interlocutor´s needs so as to reach him from concrete actions or the appropriate message.
+        To know and to understand the different corporate audiences, the market and the competition movements
+                </p>
+            </div>
+            <div>
+                <p class="bio-title">
+                    <span class="bio-question">What is the key to my success?</span> I LOVE WHAT I DO AND I ENJOY IT THE MOST WHEN WORKING IN A TEAM!
+                </p>
+                <p class="bio-text">
+                    I have a great self-motivation and I inspire my peers and the team since I am convinced that "together is much better." During my more than 20 years of professional career I have had the opportunity and the honor to meet professional and humanly impeccable people from whom I have learned a lot and who contributed greatly to training me as a professional and as a human being. As a way to continue with this chain, I would like to leave a mark on the new generation of professionals, so I share my knowledge and experience whenever I have the opportunity.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="work">
+        <h1>carreer</h1>
+        <div id="photos">
+
+        </div>
+    </div>
+    <div id="contact">
+        <h1>contact</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div id="inner_div">
+                            <table id="inner_table">
+                                <tr>
+                                    <td><i class="fas fa-phone"></i> &nbsp; +59 9 11 5491-5240</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-envelope"></i> &nbsp; lorena_prenol@hotmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="linkedin.com/in/lorenaprenol"><i class="fab fa-linkedin"></i> &nbsp; Lorena Prenol</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="text" placeholder="name" required>
+                            <input type="email" placeholder="email" required><br>
+                            <textarea placeholder="your message" required rows="5"></textarea><br>
+                            <button class="btn_one">send</button>
+                        </form> 
+                    </td>
+                </tr>
+            </table>
+    </div>
+    <div id="footer">
+        Communications and Marketing Professional Services<br> <a href="">maria lorena prenol</a>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
